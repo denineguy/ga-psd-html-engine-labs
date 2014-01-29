@@ -1,6 +1,368 @@
 /* USE FONT WEIGHT TO SELECT Light 200, Light 200 Italic, Bold 700, Normal 400 or Normal 400 Italic */
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight:400;
+	width: 100%;
+	min-height: 100%;
+	background-color: #FFFFFF;
+	background-size: 100%;
 }
+
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+
+.float-container{
+	overflow: hidden;
+}
+
+.header-wrapper{
+	width: 100%;
+	background-color: #FFFFFF;
+	min-height: 100px;
+	/*border: 1px solid green;*/
+}
+
+.header{
+	width: 960px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FFFFFF;
+	min-height: 100px;
+}
+
+.logo{
+	width: 49%;
+	float:left;
+	/*border: 1px solid black;*/
+	margin-left: 10px;
+}
+
+.navigation-bar{
+	width: 48%;
+	float:left;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+}
+
+.navigation-bar ul{
+	width: 100%;
+	left: 500px;
+	line-height: 58px;
+	margin-left: 59px;
+}
+
+.navigation-bar li{
+	float: left;
+	/*border: 1px solid black;*/
+	padding: 18px;
+	text-transform: uppercase;
+	line-height: 58px;
+}
+
+.navigation-bar ul .login{
+	padding: 18px 0px 18px 0px;
+}
+
+.navigation-bar ul button{
+	background-color: black;
+	border-radius: 20px;
+	height: 30px;
+	width: 90px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.navigation-bar ul button a{
+	text-decoration: none;
+	color: white;
+}
+/*==================================Hero-Image=========================================== */
+
+.hero-image{
+	margin: 0 auto;
+	height: 500px;
+}
+
+.hero-image img{
+	width: 100%;
+	height: 500px;
+}
+
+.hero-word h1{
+	color: white;
+	font-weight: 700;
+	font-size: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	/*border: 1px solid red;*/
+	line-height: 70px;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	z-index: 1;
+}
+
+.hero-word h2{
+	color: white;
+	font-size: 40px;
+	font-weight: 200;
+	text-align: center;
+	line-height: 70px;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	z-index: 1;
+	/*border: 1px solid red; */
+}
+
+#left-arrow,
+#right-arrow{
+	background-color: black;
+	max-width: 42px;
+	max-height: 30px;
+}
+
+.arrow-container{
+	width: 100%;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 50%;
+}
+
+#right-arrow{
+	float: right;
+	right: -50px;
+}
+/*==================================Hero-Image=========================================== */
+
+.quotes-section{
+	background-color: #FFFFFF;
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 1px solid #f2f2f2;
+	min-height: 250px;
+}
+
+#quotes{
+	width: 960px;
+	font-weight: 200;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+/*	border: 1px solid blue;*/
+	margin: 0 auto;
+	padding: 60px 0px 30px 0px;
+}
+
+#quote-author{
+	width: 960px;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
+}
+
+#quote-author span{
+	font-weight: 400;
+}
+
+/*==================================Feature=========================================== */
+.feature-section{
+	width: 960px;
+	min-height: 528px;
+	margin: 0 auto;
+	/*border: 1px solid blue;*/
+	border-top: 1px solid #F2F2F2;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+.feature{
+	width: 32%;
+	min-height: 220px;
+/*	border: 1px solid blue;*/
+	float: left;
+	margin: 5px;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.feature-image1{
+	margin: 0 auto;
+	width: 80%;
+	min-height: 220px;
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -690px -13px;
+	/*border: 1px solid blue;*/
+
+}
+
+.feature-image2{
+	margin: 0 auto;
+	width: 80%;
+	min-height: 220px;
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -440px -13px;
+	/*border: 1px solid blue;*/
+
+}
+
+.feature-image3{
+	margin: 0 auto;
+	width: 80%;
+	min-height: 220px;
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -440px -252px;
+	/*border: 1px solid blue;*/
+}
+
+.feature-title{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 700;
+	font-size: 28px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.feature-notes{
+	width: 85%;
+	margin: 0 auto;
+	/*border: 1px solid blue;*/
+	font-size: 16px;
+	line-height: 22px
+}
+/*==================================Culture=========================================== */
+.culture-section{
+	width: 100%;
+	border-top: 1px solid #F2F2F2;
+}
+
+.culture-wrapper{
+	width: 960px;
+/*	border: 1px solid blue;*/
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.culture-text{
+	font-size: 16px;
+	width: 54%;
+	/*border: 1px solid blue;*/
+	float: left;
+	margin: 0px 5px 70px 5px;
+
+}
+
+.culture-text h3{
+	width: 86%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-weight: 700;
+	font-size: 34px;
+	/*border: 1px solid blue;*/
+}
+
+.culture-text p{
+	width: 86%;
+	font-size: 15px;
+/*	border: 1px solid blue;*/
+	margin: 0 auto;
+	line-height: 22px;
+}
+
+.culture-image{
+	width: 40%;
+	/*border: 1px solid blue;*/
+	float: left;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -0px -100px;
+	min-height: 350px;
+}
+
+.culture-text .learn-button{
+	width: 35%;
+	margin-top: 30px;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-radius: 20px;
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -117px -20px;	
+}
+
+/*==================================Footer=========================================== */
+.footer{
+	width: 100%;
+	margin: 0 auto;
+	height: 500px;
+}
+
+.footer img{
+	width: 100%;
+	height: 500px;
+}
+
+.footer-wrapper{
+	width: 960px;
+	margin: 0 auto;
+	/*border: 1px solid #FFFFFF;*/
+/*	min-height: 550px;*/
+	position: relative;
+	bottom: 500px;
+}
+
+.footer-wrapper ul{
+	float: left;
+	/*border: 1px solid #FFFFFF;*/
+	width: 11.25%;
+	display: block;
+	padding-left: 50px;
+	margin-top: 100px;
+	
+}
+.footer-wrapper li{
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: 200;
+	line-height: 24px;
+}
+
+.footer-wrapper li span{
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	line-height: 32px;
+}
+
+.footer p{
+	color: #FFFFFF;
+	margin-left: 50px;
+	font-size: 16px;
+	font-weight: 200;
+	opacity: .5;
+	position: relative;
+	bottom: 250px;
+}	
+
+
